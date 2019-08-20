@@ -15,11 +15,11 @@ def pop_with_args(arr)
 end
 
 def using_shift
-  arr.shift
+  arr.shift!
 end
 
 def shift_with_args
-  arr.shift(2)
+  arr.shift!(2)
 end
 
 def using_concat(arr1, arr2)
