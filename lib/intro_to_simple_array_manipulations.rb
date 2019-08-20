@@ -6,20 +6,20 @@ def using_unshift(arr, ele)
   arr.unshift(ele)
 end
 
-def using_pop
-
+def using_pop(arr)
+  arr.pop
 end
 
-def pop_with_args
-
+def pop_with_args(arr)
+  arr.pop(2)
 end
 
 def using_shift
-
+  arr.shift
 end
 
 def shift_with_args
-
+  arr.shift(2)
 end
 
 def using_concat
